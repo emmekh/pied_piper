@@ -1,0 +1,186 @@
+body{
+    font-family: Roboto, "Helvetica Neue", Arial;
+    font-style: normal;
+    font-weight: 500;
+    min-width: 1219px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+
+figure {
+    float: left;
+    margin: auto;
+    padding-right: 48px;
+}
+
+p {
+    font-size: 32px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 37px;
+}
+
+p.head_name{
+    color:#007765;
+    font-size: 64px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+    line-height: 75px;
+    max-width: 1219px;
+}
+
+/** шапка сайта **/
+.header{
+    background-color: #007765;
+    max-height: 84px;
+    margin: 0;
+    padding: 20px 0 19px 0;
+}
+
+.header img{
+    max-width: 184px;
+}
+
+/** выравнивание контента **/
+.container{
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+    max-width: 1219px;
+}
+
+/** меню **/
+.navbar{
+    padding: 8px 0;
+    margin: 0;
+    float: right;
+    list-style: none;
+}
+
+.navbar a:hover{
+    text-decoration: underline;
+}
+
+/** секция PiperNet is Here **/
+.piper_net{
+    background-image: url(./img/image.png);
+    background-position:center;
+    background-size: cover;
+    padding: 160px 0;
+}
+
+.net_message{
+    text-align: center;
+}
+
+.net_message a{
+    font-size: 72px;
+}
+
+/** секция The Problem **/
+.the_problem{
+    background-color: #eeeeee;
+    margin: 0;
+    padding: 48px 0 92px 0;
+}
+
+.problem_message {
+    max-width: 1110px;
+}
+
+.problem_message > p {
+    margin-top: 15px;
+}
+
+/** HERO Section **/
+.hero {
+    background-image: url(./img/hero.png);
+    background-position: center;
+    background-size: cover;
+    padding-top: 128px;
+    padding-bottom: 128px;
+}
+
+.hero_message {
+    font-style: italic;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+  }
+
+  /** Introduce section **/
+.pied_piper {
+    background-color: #fff;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+.piper_message img{
+    max-width: 115px;
+    max-height: 115px;
+    left: 55px;
+}
+
+/** The Team section**/
+.the_team{
+    background-color: #eeeeee;
+    padding-top: 48px;
+    padding-bottom: 94px;
+    margin: 0;
+}
+
+.card {
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 28px;
+    margin: 0;
+}
+
+.fl_ex{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card img {
+    max-width: 168px;
+    margin:0 91px 0 91px;
+}
+
+.card i{
+    font-size:18px;
+    margin:0;
+    line-height: 21px;
+}
+.card p {
+    font-size: 24px;
+    color: #007765;
+    font-weight: bold;
+    margin:0;
+    line-height: 28px;
+}
+
+/**Footer section**/
+.footer{
+    background-color: #333333;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+.footer_message{
+    font-weight: 400;
+    text-align: center;
+    max-width: 540px;
+    color: #fff;
+    font-size:18px;
+    margin: auto;
+}
